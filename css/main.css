@@ -154,6 +154,25 @@ header .fa-chevron-down:hover {
   font-size: 24px;
 }
 
+.portfolio .carousel-item {
+  position: relative;
+  height: 600px;
+}
+.portfolio .carousel-caption {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.8);
+  left: 0;
+  right: 0;
+  padding: 20px 0;
+}
+.portfolio .carousel-indicators {
+  padding-bottom: 10px;
+}
+
+.card {
+  margin: 10px;
+}
+
 @media (min-width: 375px) {
   header h1 {
     font-size: 36px;
@@ -171,8 +190,8 @@ header .fa-chevron-down:hover {
   }
 }
 @media (min-width: 992px) {
-  html {
-    scroll-padding-top: 72px;
+  nav {
+    height: 82px;
   }
   .aboutus-hero {
     background-image: url(../img/technology-big.jpg);
